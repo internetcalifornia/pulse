@@ -1,16 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++6D928A9",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "1A0FDBCFF2E7476BB87CBB8361440E0E059C26BA" : 0,
-    "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F" : 0
+    "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++6D928A9" : 0,
+    "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++895F7F1" : 0,
+    "1A0FDBCFF2E7476BB87CBB8361440E0E059C26BA+++4C6DCC8" : 0,
+    "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++4CEE8A4" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FEB352B6-0EB1-4D5B-87E1-F52DD2F50A79",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "1A0FDBCFF2E7476BB87CBB8361440E0E059C26BA" : "",
-    "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F" : "Digital%20Patient\/Digital%20Patient\/"
+    "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++6D928A9" : "Digital%20Patient\/",
+    "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++895F7F1" : "Digital%20Patient\/Digital%20Patient\/",
+    "1A0FDBCFF2E7476BB87CBB8361440E0E059C26BA+++4C6DCC8" : "",
+    "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++4CEE8A4" : "Digital%20Patient\/Digital%20Patient\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Digital Patient",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,17 +23,22 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/internetcalifornia\/breadcrumbs.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A0FDBCFF2E7476BB87CBB8361440E0E059C26BA"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/internetcalifornia\/breadcrumbs.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A0FDBCFF2E7476BB87CBB8361440E0E059C26BA+++4C6DCC8"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/internetcalifornia\/Digital-Patient.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++4CEE8A4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/internetcalifornia\/Digital-Patient.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++6D928A9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/internetcalifornia\/breadcrumbs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F5E37CE232CBC6E42D56751B42831D8CB0CAD1F+++895F7F1"
     }
   ]
 }
