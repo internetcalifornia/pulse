@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2D1BB1191CBB650B00E4AE5E /* Person Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BB1181CBB650B00E4AE5E /* Person Model.swift */; };
 		2D1BB11B1CBB6A3800E4AE5E /* List of States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */; };
-		2D1BB11D1CBB6DA600E4AE5E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1BB11C1CBB6DA600E4AE5E /* Default-568h@2x.png */; };
 		2D220B041CBAD40F000B1E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B031CBAD40F000B1E9D /* AppDelegate.swift */; };
 		2D220B061CBAD40F000B1E9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B051CBAD40F000B1E9D /* ViewController.swift */; };
 		2D220B091CBAD40F000B1E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D220B071CBAD40F000B1E9D /* Main.storyboard */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		2D1BB1181CBB650B00E4AE5E /* Person Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person Model.swift"; sourceTree = "<group>"; };
 		2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "List of States.swift"; sourceTree = "<group>"; };
-		2D1BB11C1CBB6DA600E4AE5E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2D220B001CBAD40E000B1E9D /* Digital Patient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Patient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D220B031CBAD40F000B1E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D220B051CBAD40F000B1E9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +46,6 @@
 		2D220AF71CBAD40E000B1E9D = {
 			isa = PBXGroup;
 			children = (
-				2D1BB11C1CBB6DA600E4AE5E /* Default-568h@2x.png */,
 				2D220B021CBAD40F000B1E9D /* Digital Patient */,
 				2D220B011CBAD40E000B1E9D /* Products */,
 			);
@@ -138,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D220B0E1CBAD40F000B1E9D /* LaunchScreen.storyboard in Resources */,
-				2D1BB11D1CBB6DA600E4AE5E /* Default-568h@2x.png in Resources */,
 				2D220B0B1CBAD40F000B1E9D /* Assets.xcassets in Resources */,
 				2D220B091CBAD40F000B1E9D /* Main.storyboard in Resources */,
 			);
@@ -269,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "Digital Patient/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.breadcrumbs.Digital-Patient";
@@ -280,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "Digital Patient/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.breadcrumbs.Digital-Patient";
