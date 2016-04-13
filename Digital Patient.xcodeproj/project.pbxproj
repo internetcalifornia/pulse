@@ -16,6 +16,7 @@
 		2D220B0E1CBAD40F000B1E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D220B0C1CBAD40F000B1E9D /* LaunchScreen.storyboard */; };
 		2D220B161CBAD49B000B1E9D /* Patient Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B151CBAD49B000B1E9D /* Patient Model.swift */; };
 		2D220B1A1CBB41D9000B1E9D /* Model Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B191CBB41D9000B1E9D /* Model Functions.swift */; };
+		2D792BDD1CBE201400303E61 /* Digital Patient.app in Resources */ = {isa = PBXBuildFile; fileRef = 2D220B001CBAD40E000B1E9D /* Digital Patient.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D220B0E1CBAD40F000B1E9D /* LaunchScreen.storyboard in Resources */,
+				2D792BDD1CBE201400303E61 /* Digital Patient.app in Resources */,
 				2D220B0B1CBAD40F000B1E9D /* Assets.xcassets in Resources */,
 				2D220B091CBAD40F000B1E9D /* Main.storyboard in Resources */,
 			);
