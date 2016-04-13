@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Digital Patient.xcscheme</key>
+		<key>Pulse.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -13,6 +13,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>2D220AFF1CBAD40E000B1E9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2D792BE11CBE215E00303E61</key>
 		<dict>
 			<key>primary</key>
 			<true/>

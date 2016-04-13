@@ -7,22 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D1BB1191CBB650B00E4AE5E /* Person Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BB1181CBB650B00E4AE5E /* Person Model.swift */; };
-		2D1BB11B1CBB6A3800E4AE5E /* List of States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */; };
-		2D220B041CBAD40F000B1E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B031CBAD40F000B1E9D /* AppDelegate.swift */; };
-		2D220B061CBAD40F000B1E9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B051CBAD40F000B1E9D /* ViewController.swift */; };
-		2D220B091CBAD40F000B1E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D220B071CBAD40F000B1E9D /* Main.storyboard */; };
-		2D220B0B1CBAD40F000B1E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D220B0A1CBAD40F000B1E9D /* Assets.xcassets */; };
-		2D220B0E1CBAD40F000B1E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D220B0C1CBAD40F000B1E9D /* LaunchScreen.storyboard */; };
-		2D220B161CBAD49B000B1E9D /* Patient Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B151CBAD49B000B1E9D /* Patient Model.swift */; };
-		2D220B1A1CBB41D9000B1E9D /* Model Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B191CBB41D9000B1E9D /* Model Functions.swift */; };
-		2D792BDD1CBE201400303E61 /* Digital Patient.app in Resources */ = {isa = PBXBuildFile; fileRef = 2D220B001CBAD40E000B1E9D /* Digital Patient.app */; };
+		2D792BE51CBE215E00303E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D792BE41CBE215E00303E61 /* AppDelegate.swift */; };
+		2D792BE71CBE215E00303E61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D792BE61CBE215E00303E61 /* ViewController.swift */; };
+		2D792BEA1CBE215E00303E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D792BE81CBE215E00303E61 /* Main.storyboard */; };
+		2D792BEC1CBE215E00303E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D792BEB1CBE215E00303E61 /* Assets.xcassets */; };
+		2D792BEF1CBE215E00303E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D792BED1CBE215E00303E61 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D1BB1181CBB650B00E4AE5E /* Person Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person Model.swift"; sourceTree = "<group>"; };
 		2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "List of States.swift"; sourceTree = "<group>"; };
-		2D220B001CBAD40E000B1E9D /* Digital Patient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Patient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D220B031CBAD40F000B1E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D220B051CBAD40F000B1E9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D220B081CBAD40F000B1E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,10 +25,17 @@
 		2D220B0F1CBAD40F000B1E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D220B151CBAD49B000B1E9D /* Patient Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Patient Model.swift"; sourceTree = "<group>"; };
 		2D220B191CBB41D9000B1E9D /* Model Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model Functions.swift"; sourceTree = "<group>"; };
+		2D792BE21CBE215E00303E61 /* Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D792BE41CBE215E00303E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D792BE61CBE215E00303E61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D792BE91CBE215E00303E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D792BEB1CBE215E00303E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D792BEE1CBE215E00303E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D792BF01CBE215E00303E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D220AFD1CBAD40E000B1E9D /* Frameworks */ = {
+		2D792BDF1CBE215E00303E61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				2D220B021CBAD40F000B1E9D /* Digital Patient */,
+				2D792BE31CBE215E00303E61 /* Pulse */,
 				2D220B011CBAD40E000B1E9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +57,7 @@
 		2D220B011CBAD40E000B1E9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D220B001CBAD40E000B1E9D /* Digital Patient.app */,
+				2D792BE21CBE215E00303E61 /* Pulse.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,24 +79,37 @@
 			path = "Digital Patient";
 			sourceTree = "<group>";
 		};
+		2D792BE31CBE215E00303E61 /* Pulse */ = {
+			isa = PBXGroup;
+			children = (
+				2D792BE41CBE215E00303E61 /* AppDelegate.swift */,
+				2D792BE61CBE215E00303E61 /* ViewController.swift */,
+				2D792BE81CBE215E00303E61 /* Main.storyboard */,
+				2D792BEB1CBE215E00303E61 /* Assets.xcassets */,
+				2D792BED1CBE215E00303E61 /* LaunchScreen.storyboard */,
+				2D792BF01CBE215E00303E61 /* Info.plist */,
+			);
+			path = Pulse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D220AFF1CBAD40E000B1E9D /* Digital Patient */ = {
+		2D792BE11CBE215E00303E61 /* Pulse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D220B121CBAD40F000B1E9D /* Build configuration list for PBXNativeTarget "Digital Patient" */;
+			buildConfigurationList = 2D792BF31CBE215E00303E61 /* Build configuration list for PBXNativeTarget "Pulse" */;
 			buildPhases = (
-				2D220AFC1CBAD40E000B1E9D /* Sources */,
-				2D220AFD1CBAD40E000B1E9D /* Frameworks */,
-				2D220AFE1CBAD40E000B1E9D /* Resources */,
+				2D792BDE1CBE215E00303E61 /* Sources */,
+				2D792BDF1CBE215E00303E61 /* Frameworks */,
+				2D792BE01CBE215E00303E61 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Digital Patient";
-			productName = "Digital Patient";
-			productReference = 2D220B001CBAD40E000B1E9D /* Digital Patient.app */;
+			name = Pulse;
+			productName = Pulse;
+			productReference = 2D792BE21CBE215E00303E61 /* Pulse.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,9 +122,8 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = breadcrumbs;
 				TargetAttributes = {
-					2D220AFF1CBAD40E000B1E9D = {
+					2D792BE11CBE215E00303E61 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = NZ467R4AR6;
 					};
 				};
 			};
@@ -126,36 +140,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D220AFF1CBAD40E000B1E9D /* Digital Patient */,
+				2D792BE11CBE215E00303E61 /* Pulse */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D220AFE1CBAD40E000B1E9D /* Resources */ = {
+		2D792BE01CBE215E00303E61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D220B0E1CBAD40F000B1E9D /* LaunchScreen.storyboard in Resources */,
-				2D792BDD1CBE201400303E61 /* Digital Patient.app in Resources */,
-				2D220B0B1CBAD40F000B1E9D /* Assets.xcassets in Resources */,
-				2D220B091CBAD40F000B1E9D /* Main.storyboard in Resources */,
+				2D792BEF1CBE215E00303E61 /* LaunchScreen.storyboard in Resources */,
+				2D792BEC1CBE215E00303E61 /* Assets.xcassets in Resources */,
+				2D792BEA1CBE215E00303E61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D220AFC1CBAD40E000B1E9D /* Sources */ = {
+		2D792BDE1CBE215E00303E61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1BB11B1CBB6A3800E4AE5E /* List of States.swift in Sources */,
-				2D220B061CBAD40F000B1E9D /* ViewController.swift in Sources */,
-				2D220B1A1CBB41D9000B1E9D /* Model Functions.swift in Sources */,
-				2D220B161CBAD49B000B1E9D /* Patient Model.swift in Sources */,
-				2D220B041CBAD40F000B1E9D /* AppDelegate.swift in Sources */,
-				2D1BB1191CBB650B00E4AE5E /* Person Model.swift in Sources */,
+				2D792BE71CBE215E00303E61 /* ViewController.swift in Sources */,
+				2D792BE51CBE215E00303E61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +183,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				2D220B0D1CBAD40F000B1E9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2D792BE81CBE215E00303E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D792BE91CBE215E00303E61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D792BED1CBE215E00303E61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D792BEE1CBE215E00303E61 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -264,28 +289,24 @@
 			};
 			name = Release;
 		};
-		2D220B131CBAD40F000B1E9D /* Debug */ = {
+		2D792BF11CBE215E00303E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_FILE = Pulse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.breadcrumbs.Digital-Patient";
+				PRODUCT_BUNDLE_IDENTIFIER = com.breadcrumbs.Pulse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		2D220B141CBAD40F000B1E9D /* Release */ = {
+		2D792BF21CBE215E00303E61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_FILE = Pulse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.breadcrumbs.Digital-Patient";
+				PRODUCT_BUNDLE_IDENTIFIER = com.breadcrumbs.Pulse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -302,14 +323,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D220B121CBAD40F000B1E9D /* Build configuration list for PBXNativeTarget "Digital Patient" */ = {
+		2D792BF31CBE215E00303E61 /* Build configuration list for PBXNativeTarget "Pulse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D220B131CBAD40F000B1E9D /* Debug */,
-				2D220B141CBAD40F000B1E9D /* Release */,
+				2D792BF11CBE215E00303E61 /* Debug */,
+				2D792BF21CBE215E00303E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
