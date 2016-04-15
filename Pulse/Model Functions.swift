@@ -1,9 +1,9 @@
 //
 //  Model Functions.swift
-//  Digital Patient
+//  Pulse
 //
 //  Created by Scott Eremia-Roden on 4/10/16.
-//  Copyright © 2016 breadcrumbs. All rights reserved.
+//  Copyright © 2016 Internet, California. All rights reserved.
 //
 
 import Foundation

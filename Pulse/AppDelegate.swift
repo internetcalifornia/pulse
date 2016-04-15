@@ -3,7 +3,7 @@
 //  Pulse
 //
 //  Created by Scott Eremia-Roden on 4/12/16.
-//  Copyright © 2016 breadcrumbs. All rights reserved.
+//  Copyright © 2016 Internet, California. All rights reserved.
 //
 
 import UIKit

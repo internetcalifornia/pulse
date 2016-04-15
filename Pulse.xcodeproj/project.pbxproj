@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3D3CC11CC098A100473673 /* Appointment Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D3CC01CC098A100473673 /* Appointment Model.swift */; };
+		2D6F84251CBF576200372386 /* Model Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B191CBB41D9000B1E9D /* Model Functions.swift */; };
+		2D6F84261CBF584F00372386 /* Person Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BB1181CBB650B00E4AE5E /* Person Model.swift */; };
+		2D6F84271CBF5A1200372386 /* List of States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */; };
+		2D6F84281CBF5A1800372386 /* Patient Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D220B151CBAD49B000B1E9D /* Patient Model.swift */; };
+		2D6F842C1CBF5AB400372386 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D6F842A1CBF5AAE00372386 /* Info.plist */; };
+		2D6F84321CBF6DB500372386 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D6F84311CBF6DB500372386 /* Contents.json */; };
 		2D792BE51CBE215E00303E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D792BE41CBE215E00303E61 /* AppDelegate.swift */; };
 		2D792BE71CBE215E00303E61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D792BE61CBE215E00303E61 /* ViewController.swift */; };
 		2D792BEA1CBE215E00303E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D792BE81CBE215E00303E61 /* Main.storyboard */; };
@@ -15,23 +22,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D1BB1181CBB650B00E4AE5E /* Person Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person Model.swift"; sourceTree = "<group>"; };
-		2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "List of States.swift"; sourceTree = "<group>"; };
-		2D220B031CBAD40F000B1E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D220B051CBAD40F000B1E9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D220B081CBAD40F000B1E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2D220B0A1CBAD40F000B1E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2D220B0D1CBAD40F000B1E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2D220B0F1CBAD40F000B1E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D220B151CBAD49B000B1E9D /* Patient Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Patient Model.swift"; sourceTree = "<group>"; };
-		2D220B191CBB41D9000B1E9D /* Model Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model Functions.swift"; sourceTree = "<group>"; };
+		2D1BB1181CBB650B00E4AE5E /* Person Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Person Model.swift"; path = "Pulse/Person Model.swift"; sourceTree = SOURCE_ROOT; };
+		2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "List of States.swift"; path = "Pulse/List of States.swift"; sourceTree = SOURCE_ROOT; };
+		2D220B151CBAD49B000B1E9D /* Patient Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Patient Model.swift"; path = "Pulse/Patient Model.swift"; sourceTree = SOURCE_ROOT; };
+		2D220B191CBB41D9000B1E9D /* Model Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Model Functions.swift"; path = "Pulse/Model Functions.swift"; sourceTree = SOURCE_ROOT; };
+		2D3D3CC01CC098A100473673 /* Appointment Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Appointment Model.swift"; path = "../Appointment Model.swift"; sourceTree = "<group>"; };
+		2D6F84291CBF5AAE00372386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		2D6F84311CBF6DB500372386 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = "<group>"; };
 		2D792BE21CBE215E00303E61 /* Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D792BE41CBE215E00303E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D792BE61CBE215E00303E61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D792BE91CBE215E00303E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D792BEB1CBE215E00303E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D792BEE1CBE215E00303E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2D792BF01CBE215E00303E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +51,6 @@
 		2D220AF71CBAD40E000B1E9D = {
 			isa = PBXGroup;
 			children = (
-				2D220B021CBAD40F000B1E9D /* Digital Patient */,
 				2D792BE31CBE215E00303E61 /* Pulse */,
 				2D220B011CBAD40E000B1E9D /* Products */,
 			);
@@ -62,32 +64,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D220B021CBAD40F000B1E9D /* Digital Patient */ = {
-			isa = PBXGroup;
-			children = (
-				2D220B031CBAD40F000B1E9D /* AppDelegate.swift */,
-				2D220B051CBAD40F000B1E9D /* ViewController.swift */,
-				2D220B151CBAD49B000B1E9D /* Patient Model.swift */,
-				2D220B191CBB41D9000B1E9D /* Model Functions.swift */,
-				2D1BB1181CBB650B00E4AE5E /* Person Model.swift */,
-				2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */,
-				2D220B071CBAD40F000B1E9D /* Main.storyboard */,
-				2D220B0A1CBAD40F000B1E9D /* Assets.xcassets */,
-				2D220B0C1CBAD40F000B1E9D /* LaunchScreen.storyboard */,
-				2D220B0F1CBAD40F000B1E9D /* Info.plist */,
-			);
-			path = "Digital Patient";
-			sourceTree = "<group>";
-		};
 		2D792BE31CBE215E00303E61 /* Pulse */ = {
 			isa = PBXGroup;
 			children = (
+				2D3D3CC01CC098A100473673 /* Appointment Model.swift */,
+				2D220B151CBAD49B000B1E9D /* Patient Model.swift */,
+				2D1BB1181CBB650B00E4AE5E /* Person Model.swift */,
+				2D1BB11A1CBB6A3800E4AE5E /* List of States.swift */,
+				2D220B191CBB41D9000B1E9D /* Model Functions.swift */,
 				2D792BE41CBE215E00303E61 /* AppDelegate.swift */,
 				2D792BE61CBE215E00303E61 /* ViewController.swift */,
 				2D792BE81CBE215E00303E61 /* Main.storyboard */,
 				2D792BEB1CBE215E00303E61 /* Assets.xcassets */,
+				2D6F84311CBF6DB500372386 /* Contents.json */,
 				2D792BED1CBE215E00303E61 /* LaunchScreen.storyboard */,
-				2D792BF01CBE215E00303E61 /* Info.plist */,
+				2D6F842A1CBF5AAE00372386 /* Info.plist */,
 			);
 			path = Pulse;
 			sourceTree = "<group>";
@@ -120,14 +111,15 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = breadcrumbs;
+				ORGANIZATIONNAME = "Internet, California";
 				TargetAttributes = {
 					2D792BE11CBE215E00303E61 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = NZ467R4AR6;
 					};
 				};
 			};
-			buildConfigurationList = 2D220AFB1CBAD40E000B1E9D /* Build configuration list for PBXProject "Digital Patient" */;
+			buildConfigurationList = 2D220AFB1CBAD40E000B1E9D /* Build configuration list for PBXProject "Pulse" */;
 			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6F84321CBF6DB500372386 /* Contents.json in Resources */,
+				2D6F842C1CBF5AB400372386 /* Info.plist in Resources */,
 				2D792BEF1CBE215E00303E61 /* LaunchScreen.storyboard in Resources */,
 				2D792BEC1CBE215E00303E61 /* Assets.xcassets in Resources */,
 				2D792BEA1CBE215E00303E61 /* Main.storyboard in Resources */,
@@ -163,28 +157,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6F84251CBF576200372386 /* Model Functions.swift in Sources */,
+				2D6F84261CBF584F00372386 /* Person Model.swift in Sources */,
 				2D792BE71CBE215E00303E61 /* ViewController.swift in Sources */,
+				2D6F84271CBF5A1200372386 /* List of States.swift in Sources */,
+				2D6F84281CBF5A1800372386 /* Patient Model.swift in Sources */,
 				2D792BE51CBE215E00303E61 /* AppDelegate.swift in Sources */,
+				2D3D3CC11CC098A100473673 /* Appointment Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2D220B071CBAD40F000B1E9D /* Main.storyboard */ = {
+		2D6F842A1CBF5AAE00372386 /* Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2D220B081CBAD40F000B1E9D /* Base */,
+				2D6F84291CBF5AAE00372386 /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2D220B0C1CBAD40F000B1E9D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D220B0D1CBAD40F000B1E9D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 		2D792BE81CBE215E00303E61 /* Main.storyboard */ = {
@@ -292,29 +283,29 @@
 		2D792BF11CBE215E00303E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pulse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.breadcrumbs.Pulse;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.internet-california.Pulse";
+				PRODUCT_NAME = Pulse;
 			};
 			name = Debug;
 		};
 		2D792BF21CBE215E00303E61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pulse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.breadcrumbs.Pulse;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.internet-california.Pulse";
+				PRODUCT_NAME = Pulse;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D220AFB1CBAD40E000B1E9D /* Build configuration list for PBXProject "Digital Patient" */ = {
+		2D220AFB1CBAD40E000B1E9D /* Build configuration list for PBXProject "Pulse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D220B101CBAD40F000B1E9D /* Debug */,
@@ -330,6 +321,7 @@
 				2D792BF21CBE215E00303E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

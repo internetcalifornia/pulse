@@ -1,14 +1,15 @@
 //
 //  List of States.swift
-//  Digital Patient
+//  Pulse
 //
 //  Created by Scott Eremia-Roden on 4/10/16.
-//  Copyright © 2016 breadcrumbs. All rights reserved.
+//  Copyright © 2016 Internet, California. All rights reserved.
 //
 
 import Foundation
 
-enum UsaStates: String {
+enum USStates: String {
+    
     case AL = "Alabama"
     case AK = "Alaska"
     case AS = "American Samoa"
@@ -68,4 +69,5 @@ enum UsaStates: String {
     case WV = "West Virginia"
     case WI = "Wisconsin"
     case WY = "Wyoming"
+    
 }

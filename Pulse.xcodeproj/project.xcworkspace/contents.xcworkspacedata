@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Digital Patient.xcodeproj">
+      location = "self:/Users/scott_eremia-roden/Documents/Digital Patient/Pulse.xcodeproj">
    </FileRef>
 </Workspace>
