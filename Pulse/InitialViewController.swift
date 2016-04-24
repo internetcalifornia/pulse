@@ -7,14 +7,24 @@
 //
 
 import UIKit
+import EventKit
 
-class ViewController: UIViewController {
+class InitialViewController: UIViewController {
 
     override func viewDidLoad() {
+        
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
     }
+    
+    @IBAction func AddEvent(sender: UIButton) {
+       
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
