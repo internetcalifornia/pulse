@@ -113,12 +113,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Internet, California";
 				TargetAttributes = {
 					2D792BE11CBE215E00303E61 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = NZ467R4AR6;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -292,6 +293,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.internet-california.Pulse";
 				PRODUCT_NAME = Pulse;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -303,6 +305,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.internet-california.Pulse";
 				PRODUCT_NAME = Pulse;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

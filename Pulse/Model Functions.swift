@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import EventKit
 
 func randomID() -> NSString {
     
@@ -17,8 +18,11 @@ func randomID() -> NSString {
     for _ in 0 ..< len {
         let length = UInt32 (letters.length)
         let rand = arc4random_uniform(length)
-        randomID.appendFormat("%C", letters.characterAtIndex(Int(rand)))
+        randomID.appendFormat("%C", letters.character(at: Int(rand)))
     }
     
     return randomID
 }
+
+let eventStore = EKEventStore()
+let appointmentCal = EKCalendar(for: .event, eventStore: eventStore)

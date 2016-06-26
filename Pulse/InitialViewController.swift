@@ -21,7 +21,7 @@ class InitialViewController: UIViewController {
         
     }
     
-    @IBAction func AddEvent(sender: UIButton) {
+    @IBAction func AddEvent(_ sender: UIButton) {
        
     }
 

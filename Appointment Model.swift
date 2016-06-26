@@ -22,7 +22,7 @@ enum DayOfWeek: String {
     
     //returns the day in a string format with the first letter capitalized
     func dayAsString() -> String {
-        return self.rawValue.capitalizedString
+        return rawValue.capitalized
     }
     
     
@@ -38,7 +38,9 @@ enum DayOfWeek: String {
     
 }
 
-func createEvent(eventStore: EKEventStore, title: String, startDate: NSDate, endDate: NSDate, location: EKStructuredLocation?) {
+
+
+func createEvent(_ eventStore: EKEventStore, title: String, startDate: Date, endDate: Date, location: EKStructuredLocation?) {
     let event = EKEvent(eventStore: eventStore)
     event.title = title
     event.startDate = startDate
@@ -48,10 +50,10 @@ func createEvent(eventStore: EKEventStore, title: String, startDate: NSDate, end
 
 
 
-func createAppointment(title: String, startDate: NSDate, endDate: NSDate, location: EKStructuredLocation?) {
+func createAppointment(_ title: String, startDate: Date, endDate: Date, location: EKStructuredLocation?) {
     let eventStore = EKEventStore()
-    if (EKEventStore.authorizationStatusForEntityType(.Event) != EKAuthorizationStatus.Authorized) {
-        eventStore.requestAccessToEntityType(.Event, completion: {
+    if (EKEventStore.authorizationStatus(for: .event) != EKAuthorizationStatus.authorized) {
+        eventStore.requestAccess(to: .event, completion: {
             granted, error in
             createEvent(eventStore, title: title, startDate: startDate, endDate: endDate, location: location)
         })

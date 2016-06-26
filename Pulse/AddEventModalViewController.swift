@@ -32,16 +32,16 @@ class AddEventModalViewController: UIViewController {
     }
     */
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
     }
     
-    @IBAction func cancelAddEvent(sender: AnyObject) {
+    @IBAction func cancelAddEvent(_ sender: AnyObject) {
     }
-    @IBAction func cancelAddEventToViewController(segue: UIStoryboardSegue) {
+    @IBAction func cancelAddEventToViewController(_ segue: UIStoryboardSegue) {
         
     }
     
-    @IBAction func saveNewEventToViewController(segue: UIStoryboardSegue) {
+    @IBAction func saveNewEventToViewController(_ segue: UIStoryboardSegue) {
         
     }
     
